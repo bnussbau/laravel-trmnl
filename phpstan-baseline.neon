@@ -1,0 +1,7 @@
+parameters:
+	ignoreErrors:
+		-
+			message: '#^Method Bnussbau\\LaravelTrmnl\\Auth\\TrmnlGuard\:\:user\(\) should return Illuminate\\Contracts\\Auth\\Authenticatable\|null but returns Illuminate\\Database\\Eloquent\\Model\|null\.$#'
+			identifier: return.type
+			count: 1
+			path: src/Auth/TrmnlGuard.php
