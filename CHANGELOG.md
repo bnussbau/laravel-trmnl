@@ -2,6 +2,17 @@
 
 All notable changes to `laravel-trmnl` will be documented in this file.
 
+## 1.0.0 - 2025-06-04
+
+### What's Changed
+
+* feat: separate plugin logic from blade components by @bnussbau in https://github.com/bnussbau/laravel-trmnl/pull/5
+  * Blade components moved to repo [bnussbau/laravel-trmnl-blade](https://github.com/bnussbau/laravel-trmnl-blade)
+  
+* Bump dependabot/fetch-metadata from 2.3.0 to 2.4.0 by @dependabot in https://github.com/bnussbau/laravel-trmnl/pull/4
+
+**Full Changelog**: https://github.com/bnussbau/laravel-trmnl/compare/0.1.4...1.0.0
+
 ## 0.1.4 - 2025-02-23
 
 ### What's Changed
