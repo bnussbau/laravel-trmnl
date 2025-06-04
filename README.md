@@ -8,7 +8,9 @@
 
 Laravel TRMNL is a package designed to streamline the development of both public and private plugins for the [TRMNL](https://usetrmnl.com/?ref=laravel-trmnl) E-ink device. It supports data updates via webhooks or polling. For public plugins, it also provides built-in support for the TRMNL OAuth flow. Additionally, UI prototyping is made easier with the included Blade components.
 
-If you are looking for a Laravel based TRMNL **Server implementation**, check out this repo: [usetrmnl/byos_laravel](https://github.com/usetrmnl/byos_laravel)
+If you are looking for a Laravel based  
+* TRMNL **Server implementation**, check out this repo: [usetrmnl/byos_laravel](https://github.com/usetrmnl/byos_laravel)
+* **Blade Components** on top of the TRMNL Design System, check out this repo: [bnussbau/laravel-trmnl-blade](https://github.com/bnussbau/laravel-trmnl-blade)
 
 ![Screenshot](readme-screenshot.png)
 
