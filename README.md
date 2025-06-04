@@ -155,7 +155,7 @@ Run command `php artisan trmnl:plugin:configuration` to print the URLs required 
 
 ## Blade Components
 - [see TRMNL Design System](https://usetrmnl.com/framework)
-- [resources/views/components](resources/views/components)
+- [resources/views/components](https://github.com/bnussbau/laravel-trmnl-blade/tree/main/resources/views/components)
 
 Blade Compontens can help you generate markup code. Alternatively you can just use the native CSS classes from the TRMNL Design System.
 

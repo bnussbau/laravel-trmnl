@@ -5,7 +5,6 @@ namespace Bnussbau\LaravelTrmnl;
 use Bnussbau\LaravelTrmnl\Auth\TrmnlGuard;
 use Bnussbau\LaravelTrmnl\Commands\PrintPublicPluginConfigurationCommand;
 use Illuminate\Support\Facades\Auth;
-use Illuminate\Support\Facades\Blade;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
 
@@ -21,7 +20,6 @@ class LaravelTrmnlServiceProvider extends PackageServiceProvider
         $package
             ->name('laravel-trmnl')
             ->hasConfigFile()
-            ->hasViews()
             ->discoversMigrations()
             ->hasRoute('web')
             ->hasCommand(PrintPublicPluginConfigurationCommand::class);
@@ -29,8 +27,6 @@ class LaravelTrmnlServiceProvider extends PackageServiceProvider
 
     public function packageBooted(): void
     {
-        // Register the components with the 'trmnl' prefix
-        Blade::componentNamespace('Bnussbau\\LaravelTrmnl\\View\\Components', 'trmnl');
 
         // Register TRMNL guard
         Auth::extend('trmnl', function ($app) {
