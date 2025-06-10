@@ -2,6 +2,14 @@
 
 All notable changes to `laravel-trmnl` will be documented in this file.
 
+## 1.1.0 - 2025-06-10
+
+### What's Changed
+
+* feat: adds compatibility with TRMNL Design Framework v1.1 by @bnussbau in https://github.com/bnussbau/laravel-trmnl/pull/6
+
+**Full Changelog**: https://github.com/bnussbau/laravel-trmnl/compare/1.0.1...1.1.0
+
 ## 1.0.1 - 2025-06-06
 
 ### What's Changed
