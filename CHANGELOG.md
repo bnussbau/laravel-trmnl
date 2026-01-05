@@ -2,25 +2,39 @@
 
 All notable changes to `laravel-trmnl` will be documented in this file.
 
+## 2.1.0 - 2026-01-05
+
+### What's Changed
+
+* Update bnussbau/laravel-trmnl-blade requirement from 2.0.* to 2.1.* by @dependabot[bot] in https://github.com/bnussbau/laravel-trmnl/pull/14
+
+**Full Changelog**: https://github.com/bnussbau/laravel-trmnl/compare/2.0.0...2.1.0
+
 ## 2.0.0 - 2025-09-14
 
 ### What's Changed
 
 * feat: adds compatibility with TRMNL Design Framework v2 by @bnussbau in https://github.com/bnussbau/laravel-trmnl/pull/11
+  
   * added support for 2-bit, 4-bit screens and Device Variants
+    
   * added components
+    
     * Progress Bar
     * Divider
     * Aspect Ratio
     * Scale
     
   * For more details, see:
+    
     * https://github.com/bnussbau/laravel-trmnl-blade/pull/6
     * https://usetrmnl.com/framework
     
   
 * chore: Bump stefanzweifel/git-auto-commit-action from 5 to 6 by @dependabot[bot] in https://github.com/bnussbau/laravel-trmnl/pull/7
+  
 * chore: Bump aglipanci/laravel-pint-action from 2.5 to 2.6 by @dependabot[bot] in https://github.com/bnussbau/laravel-trmnl/pull/8
+  
 
 **Full Changelog**: https://github.com/bnussbau/laravel-trmnl/compare/1.1.0...2.0.0
 
