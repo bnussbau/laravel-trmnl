@@ -28,7 +28,7 @@ All notable changes to `laravel-trmnl` will be documented in this file.
   * For more details, see:
     
     * https://github.com/bnussbau/laravel-trmnl-blade/pull/6
-    * https://usetrmnl.com/framework
+    * https://trmnl.com/framework
     
   
 * chore: Bump stefanzweifel/git-auto-commit-action from 5 to 6 by @dependabot[bot] in https://github.com/bnussbau/laravel-trmnl/pull/7

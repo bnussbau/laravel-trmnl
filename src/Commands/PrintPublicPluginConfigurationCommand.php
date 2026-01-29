@@ -18,7 +18,7 @@ class PrintPublicPluginConfigurationCommand extends Command
 
             return self::SUCCESS;
         }
-        $this->info('Go to https://usetrmnl.com/plugins/my/new and enter the following values:');
+        $this->info('Go to https://trmnl.com/plugins/my/new and enter the following values:');
 
         $headers = ['Description', 'Value'];
         $data = [

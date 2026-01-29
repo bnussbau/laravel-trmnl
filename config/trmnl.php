@@ -34,7 +34,7 @@ return [
     | Change this if you are using a custom TRMNL server.
     */
     'server' => [
-        'base_url' => env('TRMNL_SERVER_BASE_URL', 'https://usetrmnl.com'),
+        'base_url' => env('TRMNL_SERVER_BASE_URL', 'https://trmnl.com'),
     ],
 
     /*

@@ -6,7 +6,7 @@
 [![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/bnussbau/laravel-trmnl/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/bnussbau/laravel-trmnl/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
 [![Total Downloads](https://img.shields.io/packagist/dt/bnussbau/laravel-trmnl.svg?style=flat-square)](https://packagist.org/packages/bnussbau/laravel-trmnl)
 
-Laravel TRMNL is a package designed to streamline the development of both public and private plugins for the [TRMNL](https://usetrmnl.com/?ref=laravel-trmnl) E-ink device. It supports data updates via webhooks or polling. For public plugins, it also provides built-in support for the TRMNL OAuth flow. Additionally, UI prototyping is made easier with the included Blade components.
+Laravel TRMNL is a package designed to streamline the development of both public and private plugins for the [TRMNL](https://trmnl.com/?ref=laravel-trmnl) E-ink device. It supports data updates via webhooks or polling. For public plugins, it also provides built-in support for the TRMNL OAuth flow. Additionally, UI prototyping is made easier with the included Blade components.
 
 If you are looking for a Laravel based  
 * TRMNL **Server implementation**, check out this repo: [usetrmnl/byos_laravel](https://github.com/usetrmnl/byos_laravel)
@@ -15,7 +15,7 @@ If you are looking for a Laravel based
 ![Screenshot](readme-screenshot.png)
 
 ## Support ❤️
-Support the development of this package by purchasing a TRMNL device through our referral link: https://usetrmnl.com/?ref=laravel-trmnl.
+Support the development of this package by purchasing a TRMNL device through our referral link: https://trmnl.com/?ref=laravel-trmnl.
 At checkout, use the code `laravel-trmnl` to receive a $15 **discount** on your purchase.
 
 ### Plugins built with Laravel TRMNL
@@ -24,10 +24,10 @@ At checkout, use the code `laravel-trmnl` to receive a $15 **discount** on your 
 ## Features
 
 
-- 🔌 Public and private plugin support [(docs)](https://help.usetrmnl.com/en/articles/10122094-plugin-recipes), [(docs)](https://docs.usetrmnl.com/go/plugin-marketplace/introduction)
-- 🔄 Support for updates via webhooks or polling [(docs)](https://help.usetrmnl.com/en/articles/9510536-private-plugins)
-- 🎨 Blade Components on top of the TRMNL Design System [(docs)](https://usetrmnl.com/framework)
-- 🎯 OAuth integration support for public plugins [(docs)](https://docs.usetrmnl.com/go/plugin-marketplace/plugin-installation-flow)
+- 🔌 Public and private plugin support [(docs)](https://help.trmnl.com/en/articles/10122094-plugin-recipes), [(docs)](https://docs.trmnl.com/go/plugin-marketplace/introduction)
+- 🔄 Support for updates via webhooks or polling [(docs)](https://help.trmnl.com/en/articles/9510536-private-plugins)
+- 🎨 Blade Components on top of the TRMNL Design System [(docs)](https://trmnl.com/framework)
+- 🎯 OAuth integration support for public plugins [(docs)](https://docs.trmnl.com/go/plugin-marketplace/plugin-installation-flow)
 - 📱 Render Helpers for responsive layouts
 
 ## Installation
@@ -106,7 +106,7 @@ Use the markup editor on the TRMNL private plugin webapp or use the `stripMarkup
 Facade to render markup which you can copy into the editor. See Section Blade Components. 
 
 ## Public Plugins
-Refer to the [“Plugin Marketplace” section](https://docs.usetrmnl.com/go/plugin-marketplace/introduction) in the TRMNL documentation, paying close attention to the authentication flow. 
+Refer to the [“Plugin Marketplace” section](https://docs.trmnl.com/go/plugin-marketplace/introduction) in the TRMNL documentation, paying close attention to the authentication flow. 
 Always verify the authorization token for incoming requests to prevent security issues. You can use `Auth::guard('trmnl')` to verify.
 
 ### Configuration
@@ -156,7 +156,7 @@ Route::post('/render', function () {
 Run command `php artisan trmnl:plugin:configuration` to print the URLs required for plugin submission.
 
 ## Blade Components
-- [see TRMNL Design System](https://usetrmnl.com/framework)
+- [see TRMNL Design System](https://trmnl.com/framework)
 - [resources/views/components](https://github.com/bnussbau/laravel-trmnl-blade/tree/main/resources/views/components)
 
 Blade Compontens can help you generate markup code. Alternatively you can just use the native CSS classes from the TRMNL Design System.
