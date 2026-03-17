@@ -2,6 +2,16 @@
 
 All notable changes to `laravel-trmnl` will be documented in this file.
 
+## 2.2.0 - 2026-03-17
+
+### What's Changed
+
+* feat: add support for Laravel 13
+* chore(deps): update bnussbau/laravel-trmnl-blade requirement from 2.1.* to 2.3.* by @dependabot[bot] in https://github.com/bnussbau/laravel-trmnl/pull/16
+* chore(deps): bump ramsey/composer-install from 3 to 4 by @dependabot[bot] in https://github.com/bnussbau/laravel-trmnl/pull/18
+
+**Full Changelog**: https://github.com/bnussbau/laravel-trmnl/compare/2.1.1...2.2.0
+
 ## 2.1.1 - 2026-01-29
 
 ### What's Changed
