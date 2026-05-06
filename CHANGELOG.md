@@ -2,6 +2,18 @@
 
 All notable changes to `laravel-trmnl` will be documented in this file.
 
+## 2.3.0 - 2026-05-06
+
+### What's Changed
+
+* fix: add support for Laravel 13
+* chore(deps): update bnussbau/laravel-trmnl-blade requirement from ^2.3.4 to ^3.0.3 by @dependabot[bot] in https://github.com/bnussbau/laravel-trmnl/pull/20
+* chore(deps): bump dependabot/fetch-metadata from 2.5.0 to 3.0.0 by @dependabot[bot] in https://github.com/bnussbau/laravel-trmnl/pull/19
+* chore(deps): bump dependabot/fetch-metadata from 3.0.0 to 3.1.0 by @dependabot[bot] in https://github.com/bnussbau/laravel-trmnl/pull/21
+* chore(deps): update voku/simple_html_dom requirement from ^4.8 to ^5.0 by @dependabot[bot] in https://github.com/bnussbau/laravel-trmnl/pull/22
+
+**Full Changelog**: https://github.com/bnussbau/laravel-trmnl/compare/2.2.0...2.3.0
+
 ## 2.2.0 - 2026-03-17
 
 ### What's Changed
